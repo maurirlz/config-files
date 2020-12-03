@@ -1,5 +1,8 @@
 set runtimepath+=~/.vim_runtime
 
+:imap jk <esc>
+:imap JK <esc>
+
 source ~/.vim_runtime/vimrcs/basic.vim
 source ~/.vim_runtime/vimrcs/filetypes.vim
 source ~/.vim_runtime/vimrcs/plugins_config.vim
