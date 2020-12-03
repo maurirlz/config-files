@@ -135,6 +135,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias test="npm run test"
+alias commit="~/scripts/commit-sh/main.sh"
+alias sadd="git add ."
 
 ## Pure config
 . /usr/local/opt/asdf/asdf.sh
