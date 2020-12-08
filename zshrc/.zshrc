@@ -5,7 +5,9 @@
 export ZSH="/Users/maurirlz/.oh-my-zsh"
 
 # NVM source
-source ~/.zsh-nvm/zsh-nvm.plugin.zsh
+export NVM_DIR=~/.nvm
+[ -s "$NVM_DIR/nvm.sh"  ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
 
 # JAVA AWS Coretto JDK
 
