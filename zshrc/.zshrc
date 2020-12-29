@@ -13,6 +13,9 @@ export NVM_DIR=~/.nvm
 
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home
 
+# Groovy SDK
+export GROOVY_HOME=/usr/local/opt/groovy/libexec
+
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
